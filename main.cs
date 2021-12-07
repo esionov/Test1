@@ -6,6 +6,7 @@ class Program
 {
 	public static async Task Main (string[] args) 
   	{
+		//как ускорить получение результата?
     	var objects = Enumerable.Range(0, 100);
 		var sum = 0;
 		foreach (var obj in objects)
